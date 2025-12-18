@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royel Foods | Fresh and Tasty Delivery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>FOODS KINGDOM</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order-form">Order Now</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="home" class="hero-section">
+            <img src="home page.png" alt="A variety of delicious fast food items." class="hero-image">
+            <div class="hero-content">
+                <h2>Fresh and Tasty Food Delivered to Your Doorstep!</h2>
+                <p>Experience the best food with just a click. Open 24/7 for all your cravings.</p>
+                <a href="#order-form" class="cta-button">Place Your Order</a>
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2>🍽️ Our Menu</h2>
+            <div class="menu-container">
+                <div class="menu-item">
+                    <img src="Pizza1.png" alt="Mexicon Pizza" class="food-image">
+                    <h3>Mexicon Pizza</h3>
+                </div>
+                <div class="menu-item">
+                    <img src="Pizza2.png" alt="Chees Pizza" class="food-image">
+                    <h3>Chees Pizza</h3>
+                </div>
+                <div class="menu-item">
+                    <img src="Pizza3.png" alt="Italian Pizza" class="food-image">
+                    <h3>Italian Pizza</h3>
+                </div>
+                <div class="menu-item">
+                    <img src="Pizza4.png" alt="Chiken Pizza" class="food-image">
+                    <h3>Chicken Pizza</h3>
+                </div>
+
+                <div class="menu-item">
+                    <img src="Burger1.png" alt="Beef Burgers" class="food-image">
+                    <h3>Beef Burger</h3>
+                </div>
+                <div class="menu-item">
+                    <img src="Burger2.png" alt="Fried Chicken Burgers" class="food-image">
+                    <h3>Fried Chicken Burger</h3>
+                </div>
+                <div class="menu-item">
+                    <img src="Burger3.png" alt="Grill Chicken Burgers" class="food-image">
+                    <h3>Grilled Chicken Burger</h3>
+                </div>
+                <div class="menu-item">
+                    <img src="Burger4.png" alt="Chilly Chicken Burgers" class="food-image">
+                    <h3>Chili Chicken Burger</h3>
+                </div>
+
+                <div class="menu-item">
+                    <img src="Dessert1.png" alt="Chocolate Cake" class="food-image">
+                    <h3>Chocolate Cake</h3>
+                </div>
+                <div class="menu-item">
+                    <img src="Dessert2.png" alt="Chees Cake" class="food-image">
+                    <h3>Cheesecake</h3>
+                </div>
+                <div class="menu-item">
+                    <img src="Dessert3.png" alt="Milkshake" class="food-image">
+                    <h3>Milkshake</h3>
+                </div>
+                <div class="menu-item">
+                    <img src="Dessert4.png" alt="Stowberry Cake" class="food-image">
+                    <h3>Strawberry Cake</h3>
+                </div>
+
+                <div class="menu-item">
+                    <img src="Salad1.png" alt="Meat & Vegi Salads" class="food-image">
+                    <h3>Meat & Vegi Salad</h3>
+                </div>
+                <div class="menu-item">
+                    <img src="Salad2.png" alt="Corn & Vegi Salads" class="food-image">
+                    <h3>Corn & Vegi Salad</h3>
+                </div>
+                <div class="menu-item">
+                    <img src="Salad3.png" alt="Avocado & Vegi Salads" class="food-image">
+                    <h3>Avocado & Vegi Salad</h3>
+                </div>
+                <div class="menu-item">
+                    <img src="Salad4.png" alt="Vegi Salads" class="food-image">
+                    <h3>All Vegi Salad</h3>
+                </div>
+            </div>
+        </section>
+        
+        <section id="pricing">
+            <h2>💰 Pricing Overview</h2>
+            <div class="price-table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Any Pizza</td><td>$10</td></tr>
+                        <tr><td>2 Burgers (Offer)</td><td>$8</td></tr>
+                        <tr><td>Single Burger</td><td>$5</td></tr>
+                        <tr><td>Chocolate Cake</td><td>$4</td></tr>
+                        <tr><td>Cheesecake</td><td>$6</td></tr>
+                        <tr><td>Milkshake</td><td>$3</td></tr>
+                        <tr><td>Strawberry Cake</td><td>$4</td></tr>
+                        <tr><td>All Vegetarian Salads</td><td>$6</td></tr>
+                        <tr><td>All Meat Salads</td><td>$8</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        <section id="order-form" class="order-section">
+            <h2>📝 Place Your Order</h2>
+            <form id="orderForm">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                </div>
+                
+                <div class="form-group">
+                    <label for="food-item">Choose a food item:</label>
+                    <select id="food-item" name="food-item" required>
+                        <optgroup label="Pizza">
+                            <option value="Mexicon Pizza">Mexicon Pizza ($10)</option>
+                            <option value="Chees Pizza">Chees Pizza ($10)</option>
+                            <option value="Italian Pizza">Italian Pizza ($10)</option>
+                            <option value="Chicken Pizza">Chicken Pizza ($10)</option>
+                        </optgroup>
+                        <optgroup label="Burgers">
+                            <option value="Beef Burger">Beef Burger ($5)</option>
+                            <option value="Fried Chicken Burger">Fried Chicken Burger ($5)</option>
+                            <option value="Grill Chicken Burger">Grilled Chicken Burger ($5)</option>
+                            <option value="Chili Chicken Burger">Chili Chicken Burger ($5)</option>
+                            <option value="2 Burgers Offer">2 Burgers (Offer) ($8)</option>
+                        </optgroup>
+                        <optgroup label="Dessert">
+                            <option value="Chocolate Cake">Chocolate Cake ($4)</option>
+                            <option value="Cheesecake">Cheesecake ($6)</option>
+                            <option value="Milkshake">Milkshake ($3)</option>
+                            <option value="Strawberry Cake">Strawberry Cake ($4)</option>
+                        </optgroup>
+                        <optgroup label="Salads">
+                            <option value="Meat+Vegi Salad">Meat & Vegi Salad ($8)</option>
+                            <option value="Corn+Vegi Salad">Corn & Vegi Salad ($6)</option>
+                            <option value="Avocado+Vegi Salad">Avocado & Vegi Salad ($6)</option>
+                            <option value="All Vegi Salad">All Vegi Salad ($6)</option>
+                        </optgroup>
+                    </select>
+                </div>
+        
+                <div class="form-group">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Delivery Address:</label>
+                    <textarea id="address" name="address" rows="3" required placeholder="Street Address, City, ZIP"></textarea>
+                </div>
+                
+                <button type="submit">Complete Order</button>
+            </form>
+        </section>
+    
+
+        <section id="about">
+            <h2>🌟 About Foods Kingdom</h2>
+            <p>At <b>Foods Kingdom</b>, we are committed to serving you anytime, anywhere. Open <b>24/7</b>, we provide an exceptional online fast food delivery system that ensures your favorite dishes are just a few clicks away.</p>
+            <p>Our menu features a variety of tasty and flavorful dishes, carefully crafted by our clever chefs who bring a touch of brilliance to every recipe. As a <b>Seven-star-level</b> restaurant, we take pride in delivering not just food but an unforgettable dining experience right to your doorstep.</p>
+            <p>Experience the perfect blend of convenience, quality, and taste because you deserve nothing less.</p>
+        </section>
+
+        <section id="contact">
+            <h2>📞 Get in Touch</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:customer@foodskingdom.com">customer@foodskingdom.com</a></p>
+                <p><strong>Address:</strong> 123 A New York Street</p>
+                <p><strong>Phone:</strong> <a href="tel:123-456-7890">123-456-7890</a></p>
+            </div>
+            <div class="map-placeholder">
+                            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Foods Kingdom. All rights reserved. | Developed by Chandima Wickramanayaka</p>
+    </footer>
+</body>
+</html>
